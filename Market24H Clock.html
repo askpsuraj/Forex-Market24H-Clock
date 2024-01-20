@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF+5:30">
+  <meta name="viewport" content="width=device-width, initial-scaler=1.0">
+  <title>Forex 24 Hours Clock</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .iframeContainer {
+      position: relative;
+      width: 554px;
+      height: 554px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .iframeContent {
+      position: absolute;
+      top: 100%;
+      left: 86%;
+      transform: translate(-50%, -50%);
+      width: 1500px;
+      height: 1717px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="iframeContainer">
+    <iframe src="https://market24hclock.com/" scrolling="no" class="iframeContent" frameborder="0"></iframe>
+  </div>
+</body>
+
+</html>
